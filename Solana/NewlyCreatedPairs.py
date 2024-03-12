@@ -4,7 +4,7 @@
 
 from time import sleep
 import logging
-
+from typing import List, Iterator, Union
 import asyncio
 from typing import List, AsyncIterator, Tuple
 from asyncstdlib import enumerate

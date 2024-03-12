@@ -1,0 +1,135 @@
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: WFDrYJaptIzqw8TO4Ezh/Q==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.11 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: oyIGo2DtukVGLYaBENJ3o9Oq7Mg=
+DEBUG:websockets.client:< x-rpc-node: tyo66
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -545
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28487204,"id":1}' [42 bytes]
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: weQNZPa/tpr+lCHJxmsSXw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.11 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: 201BjMZAj8VNDMrYsXQyRDTWM/M=
+DEBUG:websockets.client:< x-rpc-node: tyo66
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -596
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28488207,"id":1}' [42 bytes]
+DEBUG:asyncio:Using selector: KqueueSelector
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET / HTTP/1.1
+DEBUG:websockets.client:> Host: api.mainnet-beta.solana.com
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: mpgakd2L2YcNikzZBv8fpg==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.11 websockets/11.0.3
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< upgrade: websocket
+DEBUG:websockets.client:< connection: Upgrade
+DEBUG:websockets.client:< sec-websocket-accept: v+sOiuBKXs31RFRZElbxI3Y2Gj0=
+DEBUG:websockets.client:< x-rpc-node: tyo67
+DEBUG:websockets.client:< x-ratelimit-tier: free
+DEBUG:websockets.client:< x-ratelimit-method-limit: 40
+DEBUG:websockets.client:< x-ratelimit-method-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-rps-limit: 100
+DEBUG:websockets.client:< x-ratelimit-rps-remaining: 99
+DEBUG:websockets.client:< x-ratelimit-endpoint-limit: unlimited
+DEBUG:websockets.client:< x-ratelimit-endpoint-remaining: -631
+DEBUG:websockets.client:< x-ratelimit-conn-limit: 40
+DEBUG:websockets.client:< x-ratelimit-conn-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-connrate-limit: 40
+DEBUG:websockets.client:< x-ratelimit-connrate-remaining: 39
+DEBUG:websockets.client:< x-ratelimit-pubsub-limit: 5
+DEBUG:websockets.client:< x-ratelimit-pubsub-remaining: 4
+DEBUG:websockets.client:< access-control-allow-origin: backend_traffic
+DEBUG:websockets.client:< access-control-allow-methods: OPTIONS, POST, GET
+DEBUG:websockets.client:< access-control-allow-headers: authorization, *
+DEBUG:websockets.client:< access-control-max-age: 86400
+DEBUG:websockets.client:< allow: OPTIONS, POST, GET
+DEBUG:websockets.client:= connection is OPEN
+DEBUG:websockets.client:> TEXT '{"method":"logsSubscribe","jsonrpc":"2.0","id":...mitment":"finalized"}]}' [149 bytes]
+DEBUG:websockets.client:< TEXT '{"jsonrpc":"2.0","result":28406653,"id":1}' [42 bytes]
+INFO:root:5dtAtmbsF1nBw3chvdPbGZetS6VaXZcfiP3ZpBvNMQMzfWjmbs8qaYSXYrcDvGfZHZNYZ35qdxXux9fdp9PnHEao
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1710258013, init_pc_amount: 6000000000, init_coin_amount: 100000000000000000 }
+INFO:root:i=0
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x104aa58c0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: FJFPCCry1oR4pz7mhUDiThTqZC5x8wboLvW4cFMYFYuG, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: GeSQdvhQr8i2m1987n7zy5AcK3rpTRAKVnzF17GnhdPq
+INFO:root:4BhE1mBPCHvGURgndcYFCVxKhMB3mz3ZrNrrissFSNywmCXzduBTU4XyFJMCHPyVfX6ugaxbiW8A7MdwdXg5zhLF
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1710258180, init_pc_amount: 3000000000, init_coin_amount: 700000000000000000 }
+INFO:root:i=1
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x104aa6420>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: HdZng7iyiPxsdUZwHYK1noH6impXCWNAaQqPhT49iiyg, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: AorgYL2gLQmLy83rvgCLHU3CDrd1MYceUFSVLwsraVdE
+INFO:root:4rYXvtCpWW1aT7GtBSrAq6a5ACKYSLfsicCdZvrLB1LLEmpGPsBVLisFcPJio7vLany9Eyw4Gghu8kyrmTNx1bF9
+INFO:root:Program log: initialize2: InitializeInstruction2 { nonce: 254, open_time: 1710258054, init_pc_amount: 5000000000, init_coin_amount: 770000000000000 }
+INFO:root:i=2
+INFO:root:<generator object instructions_with_program_id.<locals>.<genexpr> at 0x104aa58c0>
+INFO:root:find LP !!!
+INFO:root:
+ Token0: ARyz6iBzUkq4Xy5ThzczzG3wB8DmhXbVUVRjJpv6RU4p, 
+ Token1: So11111111111111111111111111111111111111112, 
+ Pair: Getjs49ma6rcjKs4x8zaZG1iwS1n3juoUozaWzS22PaA
