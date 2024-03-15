@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Pairs Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var socket = io.connect('http://' + document.domain + ':' + location.port);
+            socket.on('new_pair', function(data) {
+                console.log(data);
+                var pairsElement = document.getElementById('pairs');
+                // var newPairHtml = `
+                //     <div>
+                //         <h4>New Pool Detected:</h4>
+                //         <p>${data.Token_Index[0]}: ${data['Account Public Key'][0]}</p>
+                //         <p>${data.Token_Index[1]}: ${data['Account Public Key'][1]}</p>
+                //     </div>
+                // `;
+                // pairsElement.innerHTML += newPairHtml;   
+                pairsElement.innerHTML += `<p>New pair detected: ${JSON.stringify(data)}</p>`
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>New Pairs Tracker</h1>
+    <div id="pairs">New pairs will be displayed here.</div>
+</body>
+</html>
